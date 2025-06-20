@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+nav.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3,3,58);
+    color: white;
+    padding: 20px 40px; 
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px;
+    gap: 25px;
+    flex-wrap: wrap;
+    background-color: rgb(231, 231, 232);
+}
+.hero-image img{
+    width: 400px;
+    height: auto;
+}
+
+.hero-text h1{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.hero-text p{
+    margin-bottom: 30px;
+}
+.hero button{
+    background-color: rgb(3, 3, 114);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    border:none;
+}
+.hero button:hover{
+    background-color: rgb(3, 3, 114);
+}
+.hero-text{
+    max-width: 400px;
+}
+.features{
+    display: flex;
+    padding: 40px 20px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+    gap:20px;
+    text-align: center;
+
+}
+.feature{
+    flex:1 1 250px;
+    background-color: rgb(194, 194, 240);
+    padding:40px 20px;
+    border-radius: 30px;
+}
+.product-gallery{
+    background-color: rgb(231, 231, 241);
+    text-align: center;
+    padding:40px 20px;
+}
+.product-gallery h2{
+    background-color: rgb(231,231,241);
+    color:black;
+}
+.product-container{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.product-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(191,191,236);
+    transition: .3s ease;
+}
+.product-card img{
+    width: 100px;
+    height: 100px;
+}
+.product-card:hover{
+    transform: scale(1.1,1.1);
+}
+.updates{
+    background-color:blue;
+    color: white;
+    text-align: center;
+    padding:40px 20px;
+}
+.updates h1,p{
+    padding-bottom: 20px;
+}
+.updates button{
+    color:rgb(2, 2, 250);
+    width:150px;
+    height:30px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+.updates input{
+    width:150px;
+    height:30px;
+    border-radius: 12px;
+}
+footer{
+    text-align: center;
+    background-color:rgb(3,3,58); 
+    color:white;
+    padding:1rem;
+}
